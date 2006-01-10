@@ -1,12 +1,12 @@
 Summary:	iceauth application
 Summary(pl):	Aplikacja iceauth
 Name:		xorg-app-iceauth
-Version:	0.99.2
+Version:	1.0.1
 Release:	0.1
 License:	MIT
 Group:		X11/Application
-Source0:	http://xorg.freedesktop.org/releases/X11R7.0-RC3/app/iceauth-%{version}.tar.bz2
-# Source0-md5:	0ed81ddc7512d24901e9128bed50d3ba
+Source0:	http://xorg.freedesktop.org/releases/X11R7.0/src/app/iceauth-%{version}.tar.bz2
+# Source0-md5:	50df9a5718b3cb6544a1c9f38b392b09
 URL:		http://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.57
 BuildRequires:	automake
@@ -45,6 +45,6 @@ rm -rf $RPM_BUILD_ROOT
 
 %files
 %defattr(644,root,root,755)
-%doc ChangeLog
+%doc COPYING ChangeLog
 %attr(755,root,root) %{_bindir}/*
 %{_mandir}/man1/*.1x*
