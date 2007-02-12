@@ -1,5 +1,5 @@
 Summary:	iceauth application
-Summary(pl.UTF-8):   Aplikacja iceauth
+Summary(pl.UTF-8):	Aplikacja iceauth
 Name:		xorg-app-iceauth
 Version:	1.0.1
 Release:	1
