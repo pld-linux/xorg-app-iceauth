@@ -1,5 +1,5 @@
 Summary:	iceauth application
-Summary(pl):	Aplikacja iceauth
+Summary(pl.UTF-8):   Aplikacja iceauth
 Name:		xorg-app-iceauth
 Version:	1.0.1
 Release:	1
@@ -19,7 +19,7 @@ BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 %description
 iceauth application.
 
-%description -l pl
+%description -l pl.UTF-8
 Aplikacja iceauth.
 
 %prep
