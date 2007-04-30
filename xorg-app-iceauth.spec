@@ -1,5 +1,5 @@
-Summary:	iceauth application
-Summary(pl.UTF-8):	Aplikacja iceauth
+Summary:	iceauth application - ICE authority file utility
+Summary(pl.UTF-8):	Aplikacja iceauth - narzędzie do plików autoryzacji ICE
 Name:		xorg-app-iceauth
 Version:	1.0.1
 Release:	1
@@ -17,10 +17,20 @@ BuildRequires:	xorg-util-util-macros >= 0.99.2
 BuildRoot:	%{tmpdir}/%{name}-%{version}-root-%(id -u -n)
 
 %description
-iceauth application.
+The iceauth program is used to edit and display the authorization
+information used in connecting with ICE. This program is usually used
+to extract authorization records from one machine and merge them in on
+another (as is the case when using remote logins or granting access to
+other users). Commands may be entered interactively, on the iceauth
+command line, or in scripts.
 
 %description -l pl.UTF-8
-Aplikacja iceauth.
+Program iceauth służy do modyfikowania i wyświetlania informacji
+autoryzacyjnych używanych przy łączeniu się z ICE. Ten program zwykle
+jest używany do wyciągania rekordów autoryzacyjnych z jednej maszyny i
+dołączania ich na innej (tak robi się w przypadku używania zdalnych
+logowań lub dawania dostępu innym użytkownikom). Polecenia można
+wprowadzać interaktywnie, z linii poleceń lub w skrypcie.
 
 %prep
 %setup -q -n iceauth-%{version}
