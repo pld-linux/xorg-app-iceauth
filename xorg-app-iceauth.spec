@@ -1,13 +1,13 @@
 Summary:	iceauth application - ICE authority file utility
 Summary(pl.UTF-8):	Aplikacja iceauth - narzędzie do plików autoryzacji ICE
 Name:		xorg-app-iceauth
-Version:	1.0.7
-Release:	2
+Version:	1.0.8
+Release:	1
 License:	MIT
 Group:		X11/Applications
-Source0:	http://xorg.freedesktop.org/releases/individual/app/iceauth-%{version}.tar.bz2
-# Source0-md5:	25dab02f8e40d5b71ce29a07dc901b8c
-URL:		http://xorg.freedesktop.org/
+Source0:	https://xorg.freedesktop.org/releases/individual/app/iceauth-%{version}.tar.bz2
+# Source0-md5:	3b9b79fa0f9928161f4bad94273de7ae
+URL:		https://xorg.freedesktop.org/
 BuildRequires:	autoconf >= 2.60
 BuildRequires:	automake
 BuildRequires:	pkgconfig >= 1:0.19
